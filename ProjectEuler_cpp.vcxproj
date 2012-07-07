@@ -84,6 +84,7 @@
   <ItemGroup>
     <ClCompile Include="problemfactory.cpp" />
     <ClCompile Include="Problems\problem1.cpp" />
+    <ClCompile Include="problems\problem2.cpp" />
     <ClCompile Include="ProjectEuler_cpp.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
