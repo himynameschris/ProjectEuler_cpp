@@ -12,6 +12,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "Problem 2: By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms." << std::endl;
 	std::cout << "Problem 3: What is the largest prime factor of the number 600851475143 ?" << std::endl;
 	std::cout << "Problem 4: Find the largest palindrome made from the product of two 3-digit numbers." << std::endl;
+	std::cout << "Problem 5: What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?" << std::endl;
 
 	int choice;
 	std::cin >> choice;
