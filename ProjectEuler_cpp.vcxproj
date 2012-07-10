@@ -88,6 +88,7 @@
     <ClCompile Include="problems\problem3.cpp" />
     <ClCompile Include="problems\problem4.cpp" />
     <ClCompile Include="problems\problem5.cpp" />
+    <ClCompile Include="problems\problem6.cpp" />
     <ClCompile Include="ProjectEuler_cpp.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
