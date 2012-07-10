@@ -116,5 +116,3 @@ void Problem4::run()
 	
 	std::cout << "Final top: " << top << std::endl;
 }
-
-
