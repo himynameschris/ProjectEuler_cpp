@@ -78,4 +78,15 @@ public:
 
 };
 
+class Problem7 : public Problem
+{
+public:
+	Problem7();
+	~Problem7();
+
+	virtual bool init();
+	virtual void run();
+
+};
+
 #endif // PROBLEMS_H
