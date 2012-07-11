@@ -16,6 +16,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "Problem 6: Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum." << std::endl;
 	std::cout << "Problem 7: What is the 10 001st prime number?" << std::endl;
 	std::cout << "Problem 8: Find the greatest product of five consecutive digits in the 1000-digit number." << std::endl;
+	std::cout << "Problem 9: There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc." << std::endl;
 	
 	int choice;
 	std::cin >> choice;
