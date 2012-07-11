@@ -1,6 +1,7 @@
 #include "StdAfx.h"
 #include "../problems.h"
 #include <vector>
+#include <queue>
 
 Problem8::Problem8()
 {
@@ -46,7 +47,7 @@ void Problem8::run()
 
 	//method: put the number into a string, access a char at a time, push into a vector, calc product, compare to largest found
 	//guess: 40824
-	
+
 	const char * s = "73167176531330624919225119674426574742355349194934"
 		"96983520312774506326239578318016984801869478851843"
 		"85861560789112949495459501737958331952853208805511"
@@ -67,7 +68,41 @@ void Problem8::run()
 		"84580156166097919133875499200524063689912560717606"
 		"05886116467109405077541002256983155200055935729725"
 		"71636269561882670428252483600823257530420752963450";
-
-	std::cout << s;
 	
+	std::cout << s << std::endl;
+
+	std::queue<int> q;
+	
+	long top = 0;
+
+	for(int i = 0; i < 1000; i++)
+	{
+
+		if(q.size() > 9)
+		{
+			q.pop();	
+		}
+
+		q.push((s[i] - '0'));
+
+		std::queue<int> x = q;
+		long temp = 1;
+		
+		std::cout << "Multiplying: ";
+
+		for(int j = 0; j < std::min(7,(int)x.size()); j++)
+		{
+			temp *= x.front();
+			std::cout << "::" << x.front();
+			x.pop();
+		}
+
+		std::cout << ":: for a total of: " << temp << std::endl;
+
+		if(temp > top) top = temp;
+
+	}
+
+	std::cout << "The largest product of 5 consecutive numbers is: " << top << std::endl;
+
 }
