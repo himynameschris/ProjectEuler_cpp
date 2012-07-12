@@ -111,4 +111,15 @@ public:
 
 };
 
+class Problem10 : public Problem
+{
+public:
+	Problem10();
+	~Problem10();
+
+	virtual bool init();
+	virtual void run();
+
+};
+
 #endif // PROBLEMS_H

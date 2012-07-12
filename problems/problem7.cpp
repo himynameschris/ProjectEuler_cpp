@@ -20,7 +20,7 @@ bool Problem7::init()
 bool isPrime(int i)
 {
 
-	for(long long j = 2; j < i; j++)
+	for(long long j = 2; j <= sqrt((float)i); j++)
 	{
 				
 		if(i % j == 0)

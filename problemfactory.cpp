@@ -26,6 +26,8 @@ Problem * ProblemFactory::create(int choice)
 		p = (Problem *)new Problem8();
 	case 9:
 		p = (Problem *)new Problem9();
+	case 10:
+		p = (Problem *)new Problem10();
 	}
 
 	if(p && p->init())
