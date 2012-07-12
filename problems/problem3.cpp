@@ -27,7 +27,7 @@ void Problem3::run()
 	long long origin = 600851475143;
 	long long top = origin;
 
-	for(long long i = 2; i < top; i++)
+	for(long long i = 2; i < std::sqrt((float)top); i++)
 	{
 		//std::cout << "Examining: " << i << std::endl;
 
@@ -40,7 +40,7 @@ void Problem3::run()
 			
 			bool prime = true;
 
-			for(long long j = 2; j < i; j++)
+			for(long long j = 2; j <= std::sqrt((float)i); j++)
 			{
 				
 				if(i % j == 0)
