@@ -85,6 +85,7 @@
     <ClCompile Include="problemfactory.cpp" />
     <ClCompile Include="Problems\problem1.cpp" />
     <ClCompile Include="problems\problem10.cpp" />
+    <ClCompile Include="problems\problem11.cpp" />
     <ClCompile Include="problems\problem2.cpp" />
     <ClCompile Include="problems\problem3.cpp" />
     <ClCompile Include="problems\problem4.cpp" />

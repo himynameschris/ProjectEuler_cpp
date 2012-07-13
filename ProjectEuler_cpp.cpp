@@ -21,6 +21,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "Problem 8: " << std::endl << "Find the greatest product of five consecutive digits in the 1000-digit number." << std::endl << std::endl;
 	std::cout << "Problem 9: " << std::endl << "There exists exactly one Pythagorean triplet for which a + b + c = 1000. Find the product abc." << std::endl << std::endl;
 	std::cout << "Problem 10: " << std::endl << "Find the sum of all the primes below two million." << std::endl << std::endl;
+	std::cout << "Problem 11: " << std::endl << "What is the greatest product of four adjacent numbers in any direction (up, down, left, right, or diagonally) in the 2020 grid?" << std::endl << std::endl;
 	std::cout << "////////////////////////////////////////////////////////////////////////////////" << std::endl;
 
 	int choice;
