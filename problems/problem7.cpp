@@ -1,5 +1,5 @@
-#include "StdAfx.h"
-#include "../problems.h"
+
+#include "../headers/problems.h"
 #include <vector>
 
 Problem7::Problem7()

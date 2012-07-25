@@ -1,5 +1,5 @@
-#include "StdAfx.h"
-#include "../problems.h"
+
+#include "../headers/problems.h"
 
 Problem2::Problem2()
 {

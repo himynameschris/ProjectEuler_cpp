@@ -45,11 +45,13 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>../</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -76,17 +78,11 @@
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="problemfactory.h" />
-    <ClInclude Include="problems.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="problemfactory.cpp" />
     <ClCompile Include="Problems\problem1.cpp" />
     <ClCompile Include="problems\problem10.cpp" />
     <ClCompile Include="problems\problem11.cpp" />
     <ClCompile Include="problems\problem12.cpp" />
+    <ClCompile Include="problems\problem13.cpp" />
     <ClCompile Include="problems\problem2.cpp" />
     <ClCompile Include="problems\problem3.cpp" />
     <ClCompile Include="problems\problem4.cpp" />
@@ -95,11 +91,13 @@
     <ClCompile Include="problems\problem7.cpp" />
     <ClCompile Include="problems\problem8.cpp" />
     <ClCompile Include="problems\problem9.cpp" />
-    <ClCompile Include="ProjectEuler_cpp.cpp" />
-    <ClCompile Include="stdafx.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
-    </ClCompile>
+    <ClCompile Include="source\problemfactory.cpp" />
+    <ClCompile Include="source\ProjectEuler_cpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\problemfactory.h" />
+    <ClInclude Include="headers\problems.h" />
+    <ClInclude Include="headers\targetver.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

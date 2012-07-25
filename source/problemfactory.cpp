@@ -1,6 +1,6 @@
-#include "stdafx.h"
-#include "problemfactory.h"
-#include "problems.h"
+
+#include "../headers/problemfactory.h"
+#include "../headers/problems.h"
 
 Problem * ProblemFactory::create(int choice)
 {
@@ -43,6 +43,9 @@ Problem * ProblemFactory::create(int choice)
 		break;
 	case 12:
 		p = (Problem *)new Problem12();
+		break;
+	case 13:
+		p = (Problem *)new Problem13();
 		break;
 	}
 

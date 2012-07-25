@@ -1,5 +1,4 @@
-#include "StdAfx.h"
-#include "../problems.h"
+#include "../headers/problems.h"
 
 Problem9::Problem9()
 {

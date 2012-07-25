@@ -1,12 +1,11 @@
 // ProjectEuler_cpp.cpp : Defines the entry point for the console application.
 //
-
-#include "stdafx.h"
-#include "problemfactory.h"
-#include "problems.h"
+#include "../headers/problemfactory.h"
+#include "../headers/problems.h"
 #include <time.h>
+#include <tchar.h>
 
-int _tmain(int argc, _TCHAR* argv[])
+int _tmain(int argc, TCHAR* argv[])
 {
 	std::cout << std::endl << std::endl;
 	std::cout << "////////////////////////////////////////////////////////////////////////////////" << std::endl;
@@ -23,6 +22,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	std::cout << "Problem 10: " << std::endl << "Find the sum of all the primes below two million." << std::endl << std::endl;
 	std::cout << "Problem 11: " << std::endl << "What is the greatest product of four adjacent numbers in any direction (up, down, left, right, or diagonally) in the 2020 grid?" << std::endl << std::endl;
 	std::cout << "Problem 12: " << std::endl << "What is the value of the first triangle number to have over five hundred divisors?" << std::endl << std::endl;
+	std::cout << "Problem 13: " << std::endl << "Work out the first ten digits of the sum of the following one-hundred 50-digit numbers." << std::endl << std::endl;
 	std::cout << "////////////////////////////////////////////////////////////////////////////////" << std::endl;
 
 	int choice;

@@ -1,7 +1,7 @@
 #ifndef PROBLEMS_H
 #define PROBLEMS_H
 
-#include "stdafx.h"
+#include <iostream>
 
 class Problem
 {
@@ -138,6 +138,17 @@ class Problem12 : public Problem
 public:
 	Problem12();
 	~Problem12();
+
+	virtual bool init();
+	virtual void run();
+
+};
+
+class Problem13 : public Problem
+{
+public:
+	Problem13();
+	~Problem13();
 
 	virtual bool init();
 	virtual void run();

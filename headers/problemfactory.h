@@ -1,8 +1,6 @@
 #ifndef PROBLEMFACTORY_H
 #define PROBLEMFACTORY_H
 
-#include "stdafx.h"
-
 class Problem;
 
 class ProblemFactory
