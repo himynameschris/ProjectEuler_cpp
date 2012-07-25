@@ -49,9 +49,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>../</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>../;D:\workspace\ProjectEuler\ProjectEuler_cpp\libs\BigInt</AdditionalIncludeDirectories>
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>
+      </PrecompiledHeaderOutputFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -75,9 +77,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <None Include="libs\BigInt\BigInteger.hh" />
+    <None Include="libs\BigInt\BigIntegerAlgorithms.hh" />
+    <None Include="libs\BigInt\BigIntegerLibrary.hh" />
+    <None Include="libs\BigInt\BigIntegerUtils.hh" />
+    <None Include="libs\BigInt\BigUnsigned.hh" />
+    <None Include="libs\BigInt\BigUnsignedInABase.hh" />
+    <None Include="libs\BigInt\NumberlikeArray.hh" />
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="libs\BigInt\BigInteger.cc" />
+    <ClCompile Include="libs\BigInt\BigIntegerAlgorithms.cc" />
+    <ClCompile Include="libs\BigInt\BigIntegerUtils.cc" />
+    <ClCompile Include="libs\BigInt\BigUnsigned.cc" />
+    <ClCompile Include="libs\BigInt\BigUnsignedInABase.cc" />
     <ClCompile Include="Problems\problem1.cpp" />
     <ClCompile Include="problems\problem10.cpp" />
     <ClCompile Include="problems\problem11.cpp" />

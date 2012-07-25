@@ -16,9 +16,36 @@
     <Filter Include="Problems">
       <UniqueIdentifier>{defb2e0f-ecd6-4fa8-abb2-e2b34b58a847}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{5353f69c-dcbb-4bc3-9593-87640e93f9a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\BigInt">
+      <UniqueIdentifier>{4521c428-f9b4-4bb9-b0e7-4cbbed9532c3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="libs\BigInt\BigInteger.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
+    <None Include="libs\BigInt\BigIntegerUtils.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
+    <None Include="libs\BigInt\BigUnsigned.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
+    <None Include="libs\BigInt\NumberlikeArray.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
+    <None Include="libs\BigInt\BigIntegerAlgorithms.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
+    <None Include="libs\BigInt\BigIntegerLibrary.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
+    <None Include="libs\BigInt\BigUnsignedInABase.hh">
+      <Filter>libs\BigInt</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Problems\problem1.cpp">
@@ -65,6 +92,21 @@
     </ClCompile>
     <ClCompile Include="source\ProjectEuler_cpp.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\BigInt\BigInteger.cc">
+      <Filter>libs\BigInt</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\BigInt\BigIntegerUtils.cc">
+      <Filter>libs\BigInt</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\BigInt\BigUnsigned.cc">
+      <Filter>libs\BigInt</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\BigInt\BigIntegerAlgorithms.cc">
+      <Filter>libs\BigInt</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\BigInt\BigUnsignedInABase.cc">
+      <Filter>libs\BigInt</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
